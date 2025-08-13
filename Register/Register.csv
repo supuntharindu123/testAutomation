@@ -1,0 +1,7 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+Register,navigate to website,https://demo.guru99.com/test/newtours/register.php,stpNavigate,,
+Register,Enter Username,"//*[@id=""email""]",Input,Supun,
+Register,Enter Password,/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[14]/td[2]/input,input,Supun@123,
+Register,Enter Confirm Password,/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[15]/td[2]/input,input,Supun@123,
+Register,Enter Submit Button,/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[17]/td/input,submit,,2
+Register,verify Submit massage,/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/p[1]/font/b,verifyText,errMsg,
